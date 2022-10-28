@@ -54,7 +54,7 @@ class Auth extends  CI_Controller
 			{
 				//session message
 				$this->session->set_flashdata('login_failed', 'Incorrect username or password.');
-				redirect(base_url() . 'users/login');
+				redirect(base_url() . 'login');
 			}
 		}
 

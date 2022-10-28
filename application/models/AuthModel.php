@@ -13,7 +13,7 @@ class AuthModel extends CI_Model
 		$this->db->select('*');
 		$this->db->from('users');
 		$this->db->join('departments', 'users.user_department_id = departments.department_id', 'left');
-		$this->db->where('user_name', $username);
+		$this->db->where('email', $username);
 		$query = $this->db->get();
 		$result = $query->row_array();
 
