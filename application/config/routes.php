@@ -21,7 +21,7 @@ $route['content/delete/(:any)'] = 'content/delete/$1';
 
 
 $route['login'] = 'auth/login';
-
+$route['testmail'] = 'emails/sendmail';
 
 
 $route['(:any)'] = 'pages/view/$1';
