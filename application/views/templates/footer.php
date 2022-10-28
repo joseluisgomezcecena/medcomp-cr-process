@@ -5,10 +5,10 @@
 <!-- Footer START -->
 <footer class="footer">
 	<div class="footer-content">
-		<p class="m-b-0">Copyright © 2019 Theme_Nate. All rights reserved.</p>
+		<p class="m-b-0">Continuous Improvement Software <?php echo date("Y") ?>. </p>
 		<span>
-                            <a href="" class="text-gray m-r-15">Term &amp; Conditions</a>
-                            <a href="" class="text-gray">Privacy &amp; Policy</a>
+                            <a href="" class="text-gray m-r-15">Instructions & Manuals</a>
+                            <a href="" class="text-gray">Get Help.</a>
                         </span>
 	</div>
 </footer>

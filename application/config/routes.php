@@ -20,6 +20,10 @@ $route['content/update/(:any)'] = 'content/update/$1';
 $route['content/delete/(:any)'] = 'content/delete/$1';
 
 
+$route['login'] = 'auth/login';
+
+
+
 $route['(:any)'] = 'pages/view/$1';
 $route['default_controller'] = 'pages/view';
 $route['404_override'] = '';
