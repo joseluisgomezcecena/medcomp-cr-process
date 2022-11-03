@@ -9,9 +9,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'mxmtsvrandon1',
+	'username' => 'jgomez',
+	'password' => 'joseLuis15!',
 	'database' => 'medcomp_cr',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

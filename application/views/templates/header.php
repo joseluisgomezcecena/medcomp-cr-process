@@ -14,6 +14,7 @@
 
 	<!-- Core css -->
 	<link href="<?php echo base_url() ?>assets/css/app.min.css" rel="stylesheet">
+	<link href="<?php echo base_url() ?>assets/css/styles.css" rel="stylesheet">
 
 	<link href="<?php echo base_url() ?>assets/vendors/datatables/dataTables.bootstrap.min.css" rel="stylesheet">
 
