@@ -1,4 +1,9 @@
 <?php
+//EN300
+//validation assesment with ismael.
+//security for  github.
+//flowcharts for each program.
+//talk if its in the quality system.
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 $route['admins'] = 'admins/index';

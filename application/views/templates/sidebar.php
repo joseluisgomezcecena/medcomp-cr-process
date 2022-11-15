@@ -13,37 +13,29 @@
                                 </span>
 				</a>
 				<ul class="dropdown-menu">
-					<li>
-						<a href="index.html">Default</a>
-					</li>
 					<li class="active">
-						<a href="index-crm.html">CRM</a>
-					</li>
-					<li>
-						<a href="index-e-commerce.html">E-commerce</a>
-					</li>
-					<li>
-						<a href="index-projects.html">Projects</a>
+						<a href="<?php echo base_url() ?>">Home</a>
 					</li>
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="dropdown-toggle" href="javascript:void(0);">
                                 <span class="icon-holder">
-                                    <i class="anticon anticon-appstore"></i>
+                                    <i class="anticon anticon-form"></i>
                                 </span>
-					<span class="title">Apps</span>
+					<span class="title">CR Documents</span>
 					<span class="arrow">
                                     <i class="arrow-icon"></i>
                                 </span>
 				</a>
 				<ul class="dropdown-menu">
 					<li>
-						<a href="app-chat.html">Chat</a>
+						<a href="app-chat.html">New Document</a>
 					</li>
 					<li>
-						<a href="app-file-manager.html">File Manager</a>
+						<a href="app-file-manager.html">Document Manager</a>
 					</li>
+					<!--
 					<li>
 						<a href="app-mail.html">Mail</a>
 					</li>
@@ -85,45 +77,48 @@
 							</li>
 						</ul>
 					</li>
+					-->
 				</ul>
 			</li>
 			<li class="nav-item dropdown">
 				<a class="dropdown-toggle" href="javascript:void(0);">
                                 <span class="icon-holder">
-									<i class="anticon anticon-build"></i>
+                                    <i class="anticon anticon-pie-chart"></i>
+                                </span>
+					<span class="title">Reports</span>
+					<span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+				</a>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="chartist.html">Custom Report</a>
+					</li>
+					<li>
+						<a href="chartjs.html">Daily Report</a>
+					</li>
+				</ul>
+			</li>
+			<li class="nav-item dropdown">
+				<a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+									<i class="anticon anticon-message"></i>
 								</span>
-					<span class="title">UI Elements</span>
+					<span class="title">Email Notifications</span>
 					<span class="arrow">
 									<i class="arrow-icon"></i>
 								</span>
 				</a>
 				<ul class="dropdown-menu">
 					<li>
-						<a href="avatar.html">Avatar</a>
+						<a href="<?php echo base_url() ?>emails">View Notifications</a>
 					</li>
 					<li>
-						<a href="alert.html">Alert</a>
-					</li>
-					<li>
-						<a href="badge.html">Badge</a>
-					</li>
-					<li>
-						<a href="buttons.html">Buttons</a>
-					</li>
-					<li>
-						<a href="cards.html">Cards</a>
-					</li>
-					<li>
-						<a href="icons.html">Icons</a>
-					</li>
-					<li>
-						<a href="lists.html">Lists</a>
-					</li>
-					<li>
-						<a href="typography.html">Typography</a>
+						<a href="<?php echo base_url() ?>emails/configure">Configure Notifications</a>
 					</li>
 				</ul>
 			</li>
+			<!--
 			<li class="nav-item dropdown">
 				<a class="dropdown-toggle" href="javascript:void(0);">
                                 <span class="icon-holder">
@@ -205,25 +200,7 @@
 					</li>
 				</ul>
 			</li>
-			<li class="nav-item dropdown">
-				<a class="dropdown-toggle" href="javascript:void(0);">
-                                <span class="icon-holder">
-                                    <i class="anticon anticon-pie-chart"></i>
-                                </span>
-					<span class="title">Charts</span>
-					<span class="arrow">
-                                    <i class="arrow-icon"></i>
-                                </span>
-				</a>
-				<ul class="dropdown-menu">
-					<li>
-						<a href="chartist.html">Chartist</a>
-					</li>
-					<li>
-						<a href="chartjs.html">ChartJs</a>
-					</li>
-				</ul>
-			</li>
+
 			<li class="nav-item dropdown">
 				<a class="dropdown-toggle" href="javascript:void(0);">
                                 <span class="icon-holder">
@@ -271,40 +248,23 @@
 					</li>
 				</ul>
 			</li>
+			-->
 			<li class="nav-item dropdown">
 				<a class="dropdown-toggle" href="javascript:void(0);">
                                 <span class="icon-holder">
                                     <i class="anticon anticon-lock"></i>
                                 </span>
-					<span class="title">Authentication</span>
+					<span class="title">User Authentication</span>
 					<span class="arrow">
                                     <i class="arrow-icon"></i>
                                 </span>
 				</a>
 				<ul class="dropdown-menu">
 					<li>
-						<a href="login-1.html">Login 1</a>
+						<a href="login-1.html">Users</a>
 					</li>
 					<li>
-						<a href="login-2.html">Login 2</a>
-					</li>
-					<li>
-						<a href="login-3.html">Login 3</a>
-					</li>
-					<li>
-						<a href="sign-up-1.html">Sign Up 1</a>
-					</li>
-					<li>
-						<a href="sign-up-2.html">Sign Up 2</a>
-					</li>
-					<li>
-						<a href="sign-up-3.html">Sign Up 3</a>
-					</li>
-					<li>
-						<a href="error-1.html">Error 1</a>
-					</li>
-					<li>
-						<a href="error-2.html">Error 2</a>
+						<a href="login-2.html">Roles</a>
 					</li>
 				</ul>
 			</li>
