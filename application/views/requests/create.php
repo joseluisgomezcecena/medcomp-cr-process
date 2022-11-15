@@ -216,7 +216,7 @@
                     <th colspan="2">Disposition</th>
                 </tr>
                 <tr>
-                    <th>Item</th>
+                    <th style="width: 350px;">Item</th>
                     <th>Desc. of Item</th>
                     <th>New Rev</th>
                     <th>SM USA</th>
@@ -235,7 +235,7 @@
             </thead>
             <tbody id="rows">
                 <tr>
-                    <td style="width: 350px;" id="column_affected_0">
+                    <td  id="column_affected_0">
                         <input type="text" class="form-control">
                     </td>
                     <td id="column_affected_1">
