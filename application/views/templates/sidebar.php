@@ -30,10 +30,10 @@
 				</a>
 				<ul class="dropdown-menu">
 					<li>
-						<a href="app-chat.html">New Document</a>
+						<a href="<?php echo base_url() ?>requests/new">New Document</a>
 					</li>
 					<li>
-						<a href="app-file-manager.html">Document Manager</a>
+						<a href="<?php echo base_url() ?>requests">Document Manager</a>
 					</li>
 					<!--
 					<li>

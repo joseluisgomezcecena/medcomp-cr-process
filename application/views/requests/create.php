@@ -235,7 +235,7 @@
             </thead>
             <tbody id="rows">
                 <tr>
-                    <td id="column_affected_0">
+                    <td style="width: 350px;" id="column_affected_0">
                         <input type="text" class="form-control">
                     </td>
                     <td id="column_affected_1">

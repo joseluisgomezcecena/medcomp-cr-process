@@ -59,7 +59,7 @@ class Auth extends  CI_Controller
 
 				//session message
 				$this->session->set_flashdata('login_success', 'You are now logged in.');
-				redirect(base_url());
+				redirect(base_url() . 'admins');
 			}
 			else
 			{

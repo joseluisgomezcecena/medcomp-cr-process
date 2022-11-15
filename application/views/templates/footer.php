@@ -1,4 +1,5 @@
 </div>
+
 <!-- Content Wrapper END -->
 
 <!-- Footer START -->
@@ -6,9 +7,9 @@
 	<div class="footer-content">
 		<p class="m-b-0">CR Request Application Version 1.0.0 | Continuous Improvement Software <?php echo date("Y") ?>. </p>
 		<span>
-                            <a href="" class="text-gray m-r-15">Instructions & Manuals</a>
-                            <a href="" class="text-gray">Get Help.</a>
-                        </span>
+			<a href="" class="text-gray m-r-15">Instructions & Manuals</a>
+			<a href="" class="text-gray">Get Help.</a>
+		</span>
 	</div>
 </footer>
 <!-- Footer END -->
