@@ -207,82 +207,84 @@
                 </tr>
             </tbody>
         </table>
-        <table id="affected_item_table" class="table table-bordered border-top-0 table-responsive text-center pt-0 mt-0">
-            <thead>
-                <tr class="table-secondary">
-                    <th colspan="7">Affected Item(s)/Document Number(s)</th>
-                    <th colspan="5">Stock per Warehouse</th>
-                    <th>Contunue to Build</th>
-                    <th colspan="2">Disposition</th>
-                </tr>
-                <tr>
-                    <th style="width: 350px;">Item</th>
-                    <th>Desc. of Item</th>
-                    <th>New Rev</th>
-                    <th>SM USA</th>
-                    <th>SM EU</th>
-                    <th>SM CAN</th>
-                    <th>SM INTL</th>
-                    <th>1</th>
-                    <th>2</th>
-                    <th>5</th>
-                    <th>7</th>
-                    <th>Stock Rev</th>
-                    <th>(Y/N)</th>
-                    <th>Accepted Rev(s)</th>
-                    <th>UAI/S/RW/RD/RI</th>
-                </tr>
-            </thead>
-            <tbody id="rows">
-                <tr>
-                    <td  id="column_affected_0">
-                        <input type="text" class="form-control">
-                    </td>
-                    <td id="column_affected_1">
-                        <textarea class="form-control input_table_affected" cols="200" rows="3"></textarea>
-                    </td>
-                    <td id="column_affected_2">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_3">
-                        <input class="form-check-input input_table_affected" type="checkbox">
-                    </td>
-                    <td id="column_affected_4">
-                        <input class="form-check-input input_table_affected" type="checkbox">
-                    </td>
-                    <td id="column_affected_5">
-                        <input class="form-check-input input_table_affected" type="checkbox">
-                    </td>
-                    <td id="column_affected_6">
-                        <input class="form-check-input input_table_affected" type="checkbox">
-                    </td>
-                    <td id="column_affected_7">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_8">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_9">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_10">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_11">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_12">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_13">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                    <td id="column_affected_14">
-                        <input type="text" class="form-control input_table_affected">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table id="affected_item_table" class="table table-bordered border-top-0 table-responsive text-center pt-0 mt-0">
+                <thead>
+                    <tr class="table-secondary">
+                        <th colspan="7">Affected Item(s)/Document Number(s)</th>
+                        <th colspan="5">Stock per Warehouse</th>
+                        <th>Contunue to Build</th>
+                        <th colspan="2">Disposition</th>
+                    </tr>
+                    <tr>
+                        <th>Item</th>
+                        <th>Desc. of Item</th>
+                        <th>New Rev</th>
+                        <th>SM USA</th>
+                        <th>SM EU</th>
+                        <th>SM CAN</th>
+                        <th>SM INTL</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>5</th>
+                        <th>7</th>
+                        <th>Stock Rev</th>
+                        <th>(Y/N)</th>
+                        <th>Accepted Rev(s)</th>
+                        <th>UAI/S/RW/RD/RI</th>
+                    </tr>
+                </thead>
+                <tbody id="rows">
+                    <tr>
+                        <td id="column_affected_0" style="min-width: 10rem;">
+                            <input type="text" class="form-control">
+                        </td>
+                        <td id="column_affected_1" style="min-width: 15rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_2" style="min-width: 10rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_3">
+                            <input class="input_table_affected" type="checkbox">
+                        </td>
+                        <td id="column_affected_4">
+                            <input class="input_table_affected" type="checkbox">
+                        </td>
+                        <td id="column_affected_5">
+                            <input class="input_table_affected" type="checkbox">
+                        </td>
+                        <td id="column_affected_6">
+                            <input class="input_table_affected" type="checkbox">
+                        </td>
+                        <td id="column_affected_7" style="min-width: 10rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_8" style="min-width: 10rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_9" style="min-width: 10rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_10" style="min-width: 10rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_11" style="min-width: 10rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_12">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_13" style="min-width: 10rem;">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                        <td id="column_affected_14">
+                            <input type="text" class="form-control input_table_affected">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <div class="col-md-12 my-2 py-3 px-0">
             <div class="text-center my-2 py-3" style="background-color: #e9e9e9;">
                 Approval
