@@ -1,5 +1,6 @@
 {
   "require": {
-	"ivantcholakov/codeigniter-phpmailer": "^1.4"
+	"ivantcholakov/codeigniter-phpmailer": "^1.4",
+	"php": "^8.0.2"
   }
 }
